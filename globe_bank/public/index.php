@@ -7,7 +7,7 @@
   </head>
 
   <body>
-    <h1>Globe Bank: coming soon</h1>
+    <h1>Globe Bank: coming soon-ish</h1>
     <p>Globe Bank: coming soon</p>
   </body>
 </html>
