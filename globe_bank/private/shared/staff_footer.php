@@ -1,7 +1,6 @@
-  <footer>
-    &copy; <?php echo date('Y') ?> Globe Bank Int'l
-  </footer>
+<footer>
+  &copy; <?php echo date('Y'); ?> Globe Bank
+</footer>
+</body>
 
-  <body>
-
-    </html>
+</html>
