@@ -1,14 +1,12 @@
-<?php require_once('../../private/initialize.php'); ?>
-
-<?php if(!isset($page_title)) { $page_title = 'Staff Area'; } ?>
-<!DOCTYPE html>
-<html lang="en">
+<?php 
+  if(!isset($page_title)) { $page_title = 'Staff Area'; }
+?>
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" media="all" href="../stylesheets/staff.css" />
   <title>GBI - <?php echo $page_title; ?></title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" media="all" href="<?php echo url_for('/stylesheets/staff.css'); ?>">
+  </link>
 </head>
 
 <body>
@@ -18,6 +16,6 @@
 
   <navigation>
     <ul>
-      <li><a href="index.php">Menu</a></li>
+      <li><a href="<?php echo url_for('/staff/index.php'); ?>">Menu</a></li>
     </ul>
-    </nagivation>
+  </navigation>
